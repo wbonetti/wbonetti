@@ -1,4 +1,4 @@
-## Oiii eu sou a Wiliam Bonetti, programador back-end!
+## Olá eu sou a Wiliam Bonetti, programador back-end!
 <div align="center">
   <a href="https://github.com/wbonetti">
   <img height="140em" src="https://github-readme-stats.vercel.app/api?username=wbonetti&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
