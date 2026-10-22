@@ -1,0 +1,6 @@
+# só para regenerar o retrato ASCII localmente (troca de foto)
+-r requirements.txt
+pillow
+numpy
+opencv-python
+rembg[cpu]

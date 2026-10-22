@@ -1,0 +1,29 @@
+name: Atualizar arte do perfil
+
+"on":
+  schedule:
+    - cron: "17 9 * * *"   # ~06:17 no horário de Brasília, todo dia
+  workflow_dispatch: {}     # botão "Run workflow" na aba Actions
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  heatmap:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_USER: ${{ github.repository_owner }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r scripts/requirements.txt
+      - run: python scripts/fetch_contributions.py
+      - run: python scripts/render_heatmap_svg.py
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: atualiza gráfico de contribuições [skip ci]"
+          file_pattern: "data/contributions.json contrib-heatmap.svg"

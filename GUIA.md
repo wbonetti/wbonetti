@@ -6,12 +6,12 @@ serviço de terceiros, sem JavaScript.
 
 ## 1. Crie o repositório especial
 
-O repositório precisa ter **exatamente o nome do seu usuário** (ex.: `wbonetti/wbonetti`).
+O repositório precisa ter **exatamente o nome do seu usuário** (no seu caso, `wbonetti/wbonetti`).
 O `README.md` dele aparece no topo do seu perfil.
 
 ```bash
-gh repo create SEU_USUARIO --public --clone
-cd SEU_USUARIO
+gh repo create wbonetti --public --clone
+cd wbonetti
 # copie para cá todo o conteúdo desta pasta (inclusive a pasta oculta .github)
 ```
 
@@ -19,8 +19,8 @@ cd SEU_USUARIO
 
 | O quê | Onde |
 |---|---|
-| Nome do prompt (`wiliam@github`), cargo, stack, destaques, contato | `scripts/config.py` |
-| Links do LinkedIn e do usuário | final do `README.md` (`SEU_LINKEDIN`, `SEU_USUARIO`) |
+| Nome do prompt (`wbonetti@github`), cargo, stack, destaques, contato | `scripts/config.py` |
+| Links de contato | final do `README.md` |
 
 Depois de editar o `config.py`, regenere o card:
 
