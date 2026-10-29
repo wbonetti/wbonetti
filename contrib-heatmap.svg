@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 229" width="860" height="229" role="img" aria-label="481 contribuições no último ano">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 229" width="860" height="229" role="img" aria-label="484 contribuições no último ano">
 <style>text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; fill: #8b949e; font-size: 11px; } .t { fill: #c9d1d9; font-size: 14px; font-weight: 700; } .h { fill: #39d353; } .c { opacity: 0; transform-box: fill-box; transform-origin: center; animation: drop .5s cubic-bezier(.2,.8,.3,1) forwards; } @keyframes drop { from { opacity: 0; transform: translateY(-7px) scale(.6); } to { opacity: 1; transform: none; } } .f { opacity: 0; animation: fade .6s ease-out forwards; } @keyframes fade { to { opacity: 1; } }</style>
 <rect x=".5" y=".5" width="859" height="228" rx="10" fill="#0d1117" stroke="#30363d"/>
-<text x="46" y="30" class="t"><tspan class="h">481</tspan> contribuições no último ano</text>
+<text x="46" y="30" class="t"><tspan class="h">484</tspan> contribuições no último ano</text>
 <text x="46" y="54">out</text>
 <text x="136" y="54">dez</text>
 <text x="196" y="54">jan</text>
@@ -384,7 +384,8 @@
 <rect x="826" y="62" width="12" height="12" rx="2.5" fill="#0e4429" class="c" style="animation-delay:1.144s"><title>1 em 2026-10-25</title></rect>
 <rect x="826" y="77" width="12" height="12" rx="2.5" fill="#006d32" class="c" style="animation-delay:1.166s"><title>14 em 2026-10-26</title></rect>
 <rect x="826" y="92" width="12" height="12" rx="2.5" fill="#39d353" class="c" style="animation-delay:1.188s"><title>29 em 2026-10-27</title></rect>
-<rect x="826" y="107" width="12" height="12" rx="2.5" fill="#0e4429" class="c" style="animation-delay:1.210s"><title>1 em 2026-10-28</title></rect>
+<rect x="826" y="107" width="12" height="12" rx="2.5" fill="#0e4429" class="c" style="animation-delay:1.210s"><title>4 em 2026-10-28</title></rect>
+<rect x="826" y="122" width="12" height="12" rx="2.5" fill="#161b22" class="c" style="animation-delay:1.232s"><title>0 em 2026-10-29</title></rect>
 <g class="f" style="animation-delay:1.30s"><text x="46" y="197">sequência atual <tspan class="h">7d</tspan>  ·  maior sequência <tspan class="h">13d</tspan>  ·  melhor dia <tspan class="h">29</tspan> (27/10)</text>
 <text x="681" y="197">menos</text>
 <rect x="721" y="187" width="12" height="12" rx="2.5" fill="#161b22"/>
